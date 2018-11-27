@@ -1,0 +1,155 @@
+body{
+    margin:  0;
+    padding: 0;
+    background: #262626;
+}
+#copyright
+{
+    position: relative;
+    color: #ff0;
+    font-family: verdana;
+    font-size: 10px;
+    top: 700px;
+    left: 1400px;
+}
+a{
+    margin: auto;
+    position: relative;
+    top: 80%;
+    left: 35%;
+    transform: translate(-50%,-50%);
+    width: 180px;
+    height: 50px;
+    background: #262626;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 50px;
+    color: #ff0;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: verdana;
+    letter-spacing: 4px;
+}
+a:before,
+a:after,
+span:before,
+span:after
+{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #ff0;
+    transition: 1s;
+    mix-blend-mode: hue;
+}
+a:before{
+    top: -2px;
+    left: -2px;
+}
+a:after{
+    top:-2px;
+    right: -2px;
+}
+span::before{
+    bottom: -2px;
+    left: -2px;
+}
+span::after{
+    bottom:-2px;
+    right: -2px;
+}
+a:hover::before,
+a:hover:after,
+a:hover span:before,
+a:hover span::after
+{
+    width: calc(180px/2);
+    height: calc(50px/2);
+}
+.center{
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    height: 350px;
+}
+.cup
+{
+    position: absolute;
+    top: 400px;
+    left: 80%;
+    transform: translateY(50%, -50%);
+    width: 150px;
+    height: 180px;
+    border: 6px solid #262627;
+    border-top: 2px solid transparent;
+    border-radius: 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background: url(water.png);
+    background-repeat: repeat-x;
+    animation: animate 10s linear infinite;
+    box-shadow: 0 0 0 6px #fff, 0 20px 35px rgba(0,0,0,1);
+}
+.cup::before{
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 80px;
+    border: 6px solid  #fff;
+    right: -68px;
+    top: 30px;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+
+}
+@keyframes animate
+    {
+        0%
+        {
+            background-position: 0 100px;
+        }
+        10%
+        {    
+            background-position: 0 100px;
+        }
+        40%
+        {
+            background-position: 1000px -70px;
+        }
+        80%
+        {
+            background-position: 2000px -80px;
+        }
+        100%
+        {
+            background-position: 2500px 100px;
+        }
+    }
+    .mongolfiera{
+        width:70px;
+        height:120px;
+        background:url(https://www.paolodellaguzzo.com/wp-content/uploads/2017/10/hot-air-balloon.png) no-repeat top center/100%;
+        animation: mongolfiera 60s ease infinite;
+        position:relative;
+        top:320px;
+        left:30px;
+     }
+     @keyframes mongolfiera {
+        0% {
+            left: 30px;
+            top: 320px;
+        }
+        30% {
+           left: 500px;
+           top: 70px;
+        }
+        69% {
+           left: 100px;
+           top: 120px;
+        }
+        100% {
+           left: 30px;
+           top: 320px;
+        }
+     }

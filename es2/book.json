@@ -1,0 +1,164 @@
+{
+"libro":  [
+    {
+     "id"  : "32958",
+     "genere" : " Informatica",
+     "autore" : " Piero Gallo, Fabio Salerno",
+     "nome"   : " Cloud",
+     "data"   : " 2015",
+     "prezzo" : " 25euro"
+    },
+    {
+     "id"  : "93346",
+     "genere" : " Informatica",
+     "autore" : " Bjarne Stroustrup",
+     "nome"   : " C++",
+     "data"   : " 2015",
+     "prezzo" : " 50euro"
+    },
+    {
+     "id"  : "83942",
+     "genere" : " Informatica",
+     "autore" : " Andrew Hodges ",
+     "nome"   : " Alan Turing: The Imitation Game",
+     "data"   : " 2014",
+     "prezzo" : " 35euro"
+    },
+    {
+     "id"  : "43952",
+     "genere" : " Informatica",
+     "autore" : " Alessandra Salvaggio",
+     "nome"   : " HTML5 e CSS3",
+     "data"   : " 2015",
+     "prezzo" : " 26euro"
+   },
+   {
+     "id"  : "38731",
+     "genere" : " Fantasy",
+     "autore" : " George R. R. Martin",
+     "nome"   : " Game of Throne",
+     "data"   : " 2017",
+     "prezzo" : " 50euro"
+    },
+    {
+     "id"  : "38731",
+     "genere" : " Fantasy",
+     "autore" : " Suzanne Collins",
+     "nome"   : " Hunger Games",
+     "data"   : " 2008",
+     "prezzo" : " 20euro"
+   },
+   {
+    "id"  : "38731",
+    "genere" : " Fantasy",
+    "autore" : " Rick Riordan",
+    "nome"   : " Percy Jackson",
+    "data"   : " 2013",
+    "prezzo" : " 30euro"
+    },
+    {
+     "id"  : "38731",
+     "genere" : " Fantasy",
+     "autore" : " J. K. Rowling",
+     "nome"   : " Animali fantastici e dove trovarli",
+     "data"   : " 2001",
+     "prezzo" : " 45euro"
+   },
+   {
+   "id"  : "38731",
+   "genere" : " Horror",
+   "autore" : " Stephen King",
+   "nome"   : " IT",
+   "data"   : " 2017",
+   "prezzo" : " 30euro"
+   },
+   {
+   "id"  : "38731",
+   "genere" : " Horror",
+   "autore" : " Stephen King",
+   "nome"   : " Shining",
+   "data"   : " 1977",
+   "prezzo" : " 14euro"
+   },
+   {
+   "id"  : "38731",
+   "genere" : " Horror",
+   "autore" : " Stephen King",
+   "nome"   : " The mist",
+   "data"   : " 1980",
+   "prezzo" : " 20euro"
+   },
+   {
+   "id"  : "38731",
+   "genere" : " Horror",
+   "autore" : " Stephen King",
+   "nome"   : " Cimitero vivente",
+   "data"   : " 1983",
+   "prezzo" : " 27euro"
+   },
+   {
+ "id"  : "38731",
+ "genere" : " Dramma",
+ "autore" : " Khaled Hosseini",
+ "nome"   : " Il cacciatore di aquiloni",
+ "data"   : " 2003",
+ "prezzo" : " 24euro"
+ },
+ {
+ "id"  : "38731",
+ "genere" : " Dramma",
+ "autore" : " Stephen King",
+ "nome"   : " Stand by me",
+ "data"   : " 1982",
+ "prezzo" : " 31euro"
+ },
+ {
+ "id"  : "38731",
+ "genere" : " Dramma",
+ "autore" : " Jojo Moyes",
+ "nome"   : " Io prima di te",
+ "data"   : " 2017",
+ "prezzo" : " 19euro"
+ },
+ {
+ "id"  : "38731",
+ "genere" : " Dramma",
+ "autore" : " Stephen King",
+ "nome"   : " Le ali della libertà",
+ "data"   : " 1995",
+ "prezzo" : " 30euro"
+ },
+ {
+ "id"  : "38731",
+ "genere" : " Giallo",
+ "autore" : " Agatha Christie",
+ "nome"   : " Assasinio sull'Orient Express",
+ "data"   : " 1934",
+ "prezzo" : " 29euro"
+ },
+ {
+ "id"  : "38731",
+ "genere" : " Giallo",
+ "autore" : " Agatha Christie",
+ "nome"   : " Dieci piccoli indiani",
+ "data"   : " 1939",
+ "prezzo" : " 40euro"
+ },
+ {
+ "id"  : "38731",
+ "genere" : " Giallo",
+ "autore" : " Arthur Conan Doyle",
+ "nome"   : " Il mastino di baskerville",
+ "data"   : " 1902",
+ "prezzo" : " 18euro"
+ },
+ {
+ "id"  : "38731",
+ "genere" : " Giallo",
+ "autore" : " Stephen King",
+ "nome"   : " The outsider",
+ "data"   : " 2017",
+ "prezzo" : " 35euro"
+ }]
+}
+  
